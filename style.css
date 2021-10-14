@@ -1,0 +1,114 @@
+html{
+    
+    height: 100%;
+}
+p{
+    font-size: 30px;
+    text-align: center;
+}
+body{
+    background-color: oldlace;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home{
+    background-image: url(images/logo2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+ i{
+	font-size: 30px;
+	color: darkblue;
+}
+
+button {
+	
+	padding: 15px;
+	display: block;
+	position: absolute;
+	background-color: aqua;
+	text-decoration: none;
+	float: right;
+}
+
+/*=============================HomePage===========*/
+#home-logo-img{
+    width: 300px;
+    margin:auto;
+    display:block;
+    padding: 25px 25px;
+       
+}
+
+#home-logo{
+    
+    width: 80%;
+    height: 400px;
+    display: inline-block;
+    padding: 25px 100px;
+    
+}
+.menu p{
+     font-size: 16px;
+    text-align: inherit;
+    padding-left: 20px;
+    font-family: sans-serif;
+    
+}
+/*=============================HomePage Menu===========*/
+form{
+    padding-left: 150px;
+
+    
+}
+
+.home-menu-item{
+    text-decoration:none;
+    text-transform: uppercase;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align:center;
+    border:5px solid skyblue;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+
+#button {
+	text-align: center;
+}
+#button input {
+	text-decoration: none;
+	width: 	15em;
+	height: 35px;
+	font-size: 20px;
+	font-family: fantasy;
+	text-transform: uppercase;
+	background-color: forestgreen;
+	border-radius: 50px;
+	border-style: groove;
+	
+	
+}
+#button input:hover{
+	text-decoration: none;
+	width: 	15em;
+	height: 35px;
+	font-size: 20px;
+	font-family: fantasy;
+	text-transform: uppercase;
+	background-color: greenyellow;
+	transition-duration: 0.6s;
+	border-radius: 50px;
+	
+}
